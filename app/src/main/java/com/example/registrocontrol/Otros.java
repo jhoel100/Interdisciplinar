@@ -18,6 +18,21 @@ public class Otros extends AppCompatActivity {
         Intent cambiar = new Intent(this, BuscarDocente.class);
         startActivity(cambiar);
     }
-
+    public  void CAgregarDocente(View view) {
+        Intent cambiar = new Intent(this, AgregarDocente.class);
+        startActivity(cambiar);
+    }
+    public  void CEliminarDocente(View view) {
+        Intent cambiar = new Intent(this, EliminarDocente.class);
+        startActivity(cambiar);
+    }
+    public  void CModificarDocente(View view) {
+        Intent cambiar = new Intent(this, ModificarDocente.class);
+        startActivity(cambiar);
+    }
+    public  void CRetroceder(View view) {
+        Intent cambiar = new Intent(this, MainActivity.class);
+        startActivity(cambiar);
+    }
 
 }

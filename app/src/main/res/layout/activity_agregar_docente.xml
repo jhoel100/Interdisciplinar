@@ -4,35 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BuscarDocente">
+    tools:context=".AgregarDocente">
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Modificar Docente Encontrado"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="32dp"
+        android:text="Formulario"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:ems="10"
-        android:hint="DNI Docente"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView31" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -40,11 +27,26 @@
         android:hint="Nombre"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="number"
+        android:scrollbarDefaultDelayBeforeFade="400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -52,11 +54,12 @@
         android:hint="Apellido Paterno"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/editTextTextPersonName8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -64,11 +67,12 @@
         android:hint="Apellido Materno"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/editTextTextPersonName9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -77,10 +81,10 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
     <EditText
-        android:id="@+id/editTextNumber6"
+        android:id="@+id/editTextNumber2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -89,29 +93,29 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
 
     <Button
-        android:id="@+id/button46"
+        android:id="@+id/button38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
         android:layout_marginLeft="55dp"
         android:layout_marginBottom="70dp"
-        android:onClick="CRetroceder"
+        android:onClick="CAtrasD"
         android:text="Atras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button47"
+        android:id="@+id/button39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="70dp"
-        android:onClick="CModificarD"
-        android:text="Modificar"
+        android:onClick="CAgregarD"
+        android:text="Agregar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

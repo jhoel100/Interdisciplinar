@@ -6,19 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class BuscarDocente extends AppCompatActivity {
+public class ModificarDocente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buscar_docente);
+        setContentView(R.layout.activity_modificar_docente);
     }
     public  void CRetroceder(View view) {
-        Intent cambiar = new Intent(this, ModificarDocente.class);
+        Intent cambiar = new Intent(this, Otros.class);
         startActivity(cambiar);
     }
-    public  void CModificarD(View view) {
-        Intent cambiar = new Intent(this, Otros.class);
+    public  void CBuscarD(View view) {
+        Intent cambiar = new Intent(this, BuscarDocente.class);
         startActivity(cambiar);
     }
 }

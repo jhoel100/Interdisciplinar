@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BuscarDocente"></activity>
+        <activity android:name=".ModificarCompletado"></activity>
+        <activity android:name=".EliminarCompletado" />
+        <activity android:name=".AgregarCompletado" />
+        <activity android:name=".EliminarDocente" />
+        <activity android:name=".ModificarDocente" />
+        <activity android:name=".AgregarDocente" />
+        <activity android:name=".BuscarDocente" />
         <activity android:name=".Otros" />
         <activity android:name=".AgUnidad" />
         <activity android:name=".Crear2" />
